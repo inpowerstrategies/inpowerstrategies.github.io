@@ -1,2 +1,3 @@
 # inpowerstrategies
-Website for Inpower Stragies Course
+
+Website for Inpower Strategies Course
