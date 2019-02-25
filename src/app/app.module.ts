@@ -4,7 +4,8 @@ import { RouterModule } from '@angular/router';
 
 import {
   CourseDetailsComponent,
-  CourseOverviewComponent
+  CourseOverviewComponent,
+  CoursePricingComponent
 } from './courses/index';
 
 import { AppComponent } from './app.component';
@@ -26,6 +27,7 @@ import { appRoutes } from './routes';
     Error404Component,
     CourseOverviewComponent,
     CourseDetailsComponent,
+    CoursePricingComponent,
     AboutComponent
   ],
   providers: [
