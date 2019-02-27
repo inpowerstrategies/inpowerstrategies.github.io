@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "angular-example": {
+    "inpowerstrategies.github.io": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -13,13 +13,12 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/angular-example",
+            "outputPath": "dist/inpowerstrategies.github.io",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "src/tsconfig.app.json",
             "assets": [
-              "src/favicon.ico",
               "src/assets"
             ],
             "styles": [
@@ -64,18 +63,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "angular-example:build"
+            "browserTarget": "inpowerstrategies.github.io:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "angular-example:build:production"
+              "browserTarget": "inpowerstrategies.github.io:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "angular-example:build"
+            "browserTarget": "inpowerstrategies.github.io:build"
           }
         },
         "test": {
@@ -109,7 +108,7 @@
         }
       }
     },
-    "angular-example-e2e": {
+    "inpowerstrategies.github.io-e2e": {
       "root": "e2e/",
       "projectType": "application",
       "prefix": "",
@@ -118,11 +117,11 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "angular-example:serve"
+            "devServerTarget": "inpowerstrategies.github.io:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "angular-example:serve:production"
+              "devServerTarget": "inpowerstrategies.github.io:serve:production"
             }
           }
         },
@@ -138,5 +137,5 @@
       }
     }
   },
-  "defaultProject": "angular-example"
+  "defaultProject": "inpowerstrategies.github.io"
 }
