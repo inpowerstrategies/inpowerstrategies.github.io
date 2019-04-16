@@ -13,6 +13,7 @@ import { NavBarComponent } from './nav/navbar.component';
 import { FooterBarComponent } from './footer/footer.component';
 import { Error404Component } from './errors/404.component';
 import { AboutComponent } from './about/about.component';
+import { ResourceOverviewComponent } from './resources/resource-overview.component';
 import { appRoutes } from './routes';
 
 @NgModule({
@@ -28,7 +29,8 @@ import { appRoutes } from './routes';
     CourseOverviewComponent,
     CourseDetailsComponent,
     CoursePricingComponent,
-    AboutComponent
+    AboutComponent,
+    ResourceOverviewComponent
   ],
   providers: [
   ],
