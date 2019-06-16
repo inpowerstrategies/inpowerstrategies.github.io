@@ -19,7 +19,7 @@ import { appRoutes } from './routes';
 @NgModule({
   imports: [
     BrowserModule,
-    RouterModule.forRoot(appRoutes)
+    RouterModule.forRoot(appRoutes, {scrollPositionRestoration: 'enabled'})
   ],
   declarations: [
     AppComponent,
