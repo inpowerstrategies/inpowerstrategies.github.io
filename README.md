@@ -40,3 +40,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Deployments
+
+The website is currently deployed on the branch `master` using `angular-cli-ghpages` - please see the [Wiki](https://github.com/inpowerstrategies/inpowerstrategies.github.io/wiki).
