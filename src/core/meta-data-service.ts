@@ -21,7 +21,7 @@ export class MetadataService {
   public updateTags(tags: Map<string, string>, partUrl: string) {
     this.metaService.updateTag({ property: 'og:type', content: 'article' });
     this.metaService.updateTag({ property: 'og:site_name', content: 'InPower Strategies' });
-    this.metaService.updateTag({ property: 'og:image', content: 'https://inpowerstrategies.github.io/assets/01_circle.jpg' });
+    this.metaService.updateTag({ property: 'og:image', content: 'https://inpowerstrategies.github.io/assets/seo-image.png' });
 
     if (tags == null && partUrl == null) {
       const title = 'InPower Strategies | Helping Women Stay Safe';
