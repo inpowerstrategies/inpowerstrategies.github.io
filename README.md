@@ -1,6 +1,21 @@
-# Inpower Strategies Webiste
+# InPower Strategies Website
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.2.
+
+## Getting Started
+
+```bash
+$ git clone git@github.com:inpowerstrategies/inpowerstrategies.github.io.git
+
+# install NodeJS if you haven't already with NVM
+$ npm install
+
+# install Angular CLI
+# npm install -g @angular/cli
+
+$ ng build
+$ ng serve
+```
 
 ## Development server
 
